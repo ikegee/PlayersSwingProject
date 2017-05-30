@@ -1,0 +1,285 @@
+2017-05-28 11:23:16,222 INFO  a00101515.Players  - 2017-05-28T11:23:16.220Z
+2017-05-28 11:23:16,224 INFO  a00101515.Players  - loadData() open
+2017-05-28 11:23:16,226 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 11:23:16,609 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 11:23:17,754 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 11:23:18,196 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 11:23:18,196 INFO  a00101515.dao.PlayerDao  - 2017-05-28T11:23:18.196Z
+2017-05-28 11:23:18,196 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 11:23:18,403 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 11:23:18,403 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 11:23:18,418 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 11:23:18,528 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 11:23:18,543 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 11:23:18,559 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 11:23:18,590 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 11:23:18,606 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 11:23:18,606 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 11:23:18,825 INFO  a00101515.Players  - 2017-05-28T11:23:18.825Z
+2017-05-28 11:23:19,003 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 11:23:19,003 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 11:23:19,097 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 11:23:23,144 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Jeanette', lastName='Price', emailAddress='priceizrite@hotmail.com', gamerTag='Quinesia' WHERE id=4
+2017-05-28 22:32:36,015 INFO  a00101515.Players  - 2017-05-28T22:32:36.015Z
+2017-05-28 22:32:36,015 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:32:36,031 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:32:36,421 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:32:36,890 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:32:37,250 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:32:37,265 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:32:37.265Z
+2017-05-28 22:32:37,265 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:32:37,328 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:32:37,328 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:32:37,343 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:32:37,437 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:32:37,437 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:32:37,453 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:32:37,468 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:32:37,468 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:32:37,468 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:32:37,718 INFO  a00101515.Players  - 2017-05-28T22:32:37.718Z
+2017-05-28 22:32:37,906 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:32:37,906 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:32:37,936 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:32:42,842 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Mark', lastName='Chan', emailAddress='mchan@oneminutemail.com', gamerTag='CastleRock' WHERE id=5
+2017-05-28 22:34:27,782 INFO  a00101515.Players  - 2017-05-28T22:34:27.782Z
+2017-05-28 22:34:27,782 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:34:27,782 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:34:28,126 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:34:28,454 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:34:28,767 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:34:28,782 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:34:28.767Z
+2017-05-28 22:34:28,782 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:34:28,830 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:34:28,830 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:34:28,845 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:34:28,939 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:34:28,939 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:34:28,955 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:34:28,970 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:34:28,970 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:34:28,970 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:34:29,205 INFO  a00101515.Players  - 2017-05-28T22:34:29.205Z
+2017-05-28 22:34:29,377 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:34:29,377 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:34:29,392 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:35:05,240 INFO  a00101515.Players  - 2017-05-28T22:35:05.224Z
+2017-05-28 22:35:05,240 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:35:05,240 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:35:05,615 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:35:05,943 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:35:06,252 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:35:06,252 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:35:06.252Z
+2017-05-28 22:35:06,252 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:35:06,314 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:35:06,314 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:35:06,330 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:35:06,423 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:35:06,423 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:35:06,439 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:35:06,455 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:35:06,455 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:35:06,455 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:35:06,689 INFO  a00101515.Players  - 2017-05-28T22:35:06.689Z
+2017-05-28 22:35:06,861 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:35:06,861 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:35:06,892 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:35:17,845 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Freds', lastName='Fish & Chips', emailAddress='fredfish@gamer.net', gamerTag='Ithroeann' WHERE id=1
+2017-05-28 22:35:27,980 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Freds', lastName='Fish & Chips', emailAddress='fredfish@gamer.net', gamerTag='Ithroeann' WHERE id=1
+2017-05-28 22:40:11,280 INFO  a00101515.Players  - 2017-05-28T22:40:11.264Z
+2017-05-28 22:40:11,280 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:40:11,280 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:40:11,624 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:40:11,967 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:40:12,264 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:40:12,277 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:40:12.264Z
+2017-05-28 22:40:12,277 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:40:12,341 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:40:12,341 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:40:12,357 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:40:12,450 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:40:12,450 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:40:12,466 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:40:12,482 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:40:12,482 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:40:12,482 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:40:12,700 INFO  a00101515.Players  - 2017-05-28T22:40:12.700Z
+2017-05-28 22:40:12,888 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:40:12,888 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:40:12,919 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:42:40,425 INFO  a00101515.Players  - 2017-05-28T22:42:40.410Z
+2017-05-28 22:42:40,425 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:42:40,425 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:42:40,785 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:42:41,128 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:42:41,454 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:42:41,454 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:42:41.454Z
+2017-05-28 22:42:41,454 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:42:41,516 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:42:41,516 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:42:41,532 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:42:41,626 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:42:41,641 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:42:41,641 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:42:41,657 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:42:41,673 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:42:41,673 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:42:41,891 INFO  a00101515.Players  - 2017-05-28T22:42:41.891Z
+2017-05-28 22:42:42,079 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:42:42,079 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:42:42,094 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:44:26,419 INFO  a00101515.Players  - 2017-05-28T22:44:26.419Z
+2017-05-28 22:44:26,419 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:44:26,434 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:44:26,794 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:44:27,122 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:44:27,435 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:44:27,435 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:44:27.435Z
+2017-05-28 22:44:27,449 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:44:27,497 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:44:27,513 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:44:27,513 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:44:27,622 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:44:27,653 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:44:27,653 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:44:27,669 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:44:27,684 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:44:27,684 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:44:27,934 INFO  a00101515.Players  - 2017-05-28T22:44:27.934Z
+2017-05-28 22:44:28,122 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:44:28,122 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:44:28,138 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:44:31,091 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Conrad', lastName='Washington', emailAddress='fredfish@gamer.net', gamerTag='Crayonbreath' WHERE id=3
+2017-05-28 22:47:24,712 INFO  a00101515.Players  - 2017-05-28T22:47:24.712Z
+2017-05-28 22:47:24,728 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:47:24,728 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:47:25,056 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:47:25,400 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:47:25,712 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:47:25,724 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:47:25.712Z
+2017-05-28 22:47:25,724 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:47:25,772 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:47:25,772 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:47:25,788 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:47:25,882 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:47:25,897 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:47:25,897 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:47:25,913 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:47:25,929 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:47:25,929 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:47:26,147 INFO  a00101515.Players  - 2017-05-28T22:47:26.147Z
+2017-05-28 22:47:26,319 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:47:26,319 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:47:26,351 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:47:29,210 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Laurie', lastName='Nash', emailAddress='laurieeenash@gmail.com', gamerTag='Mazzzap' WHERE id=2
+2017-05-28 22:49:03,831 INFO  a00101515.Players  - 2017-05-28T22:49:03.831Z
+2017-05-28 22:49:03,831 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:49:03,831 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:49:04,206 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:49:04,565 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:49:04,884 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:49:04,884 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:49:04.884Z
+2017-05-28 22:49:04,884 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:49:04,946 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:49:04,962 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:49:04,962 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:49:05,056 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:49:05,071 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:49:05,087 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:49:05,103 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:49:05,103 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:49:05,103 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:49:05,321 INFO  a00101515.Players  - 2017-05-28T22:49:05.321Z
+2017-05-28 22:49:05,509 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:49:05,509 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:49:05,587 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:49:08,494 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Mark', lastName='Chan', emailAddress='mchan@oneminutemail.com', gamerTag='CastleRock' WHERE id=5
+2017-05-28 22:49:22,880 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Mark', lastName='Chan', emailAddress='mchan@oneminutemail.com', gamerTag='CastleRock' WHERE id=5
+2017-05-28 22:51:51,565 INFO  a00101515.Players  - 2017-05-28T22:51:51.565Z
+2017-05-28 22:51:51,565 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:51:51,565 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:51:51,909 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:51:52,268 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:51:52,596 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:51:52,596 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:51:52.596Z
+2017-05-28 22:51:52,606 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:51:52,653 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:51:52,653 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:51:52,669 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:51:52,763 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:51:52,778 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:51:52,794 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:51:52,794 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:51:52,810 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:51:52,810 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:51:53,028 INFO  a00101515.Players  - 2017-05-28T22:51:53.028Z
+2017-05-28 22:51:53,216 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:51:53,216 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:51:53,294 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:56:32,731 INFO  a00101515.Players  - 2017-05-28T22:56:32.731Z
+2017-05-28 22:56:32,731 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:56:32,731 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:56:33,143 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:56:33,534 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:56:33,916 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:56:33,916 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:56:33.916Z
+2017-05-28 22:56:33,916 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:56:33,994 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:56:33,994 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:56:34,010 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:56:34,119 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:56:34,150 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:56:34,181 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:56:34,197 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:56:34,228 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:56:34,228 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:56:34,478 INFO  a00101515.Players  - 2017-05-28T22:56:34.478Z
+2017-05-28 22:56:34,744 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:56:34,753 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:56:34,769 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:56:41,535 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Laurie', lastName='Nash', emailAddress='laurieeenash@gmail.com', gamerTag='Mazzzap' WHERE id=2
+2017-05-28 22:59:12,701 INFO  a00101515.Players  - 2017-05-28T22:59:12.701Z
+2017-05-28 22:59:12,717 INFO  a00101515.Players  - loadData() open
+2017-05-28 22:59:12,717 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-28 22:59:13,091 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-28 22:59:13,435 DEBUG a00101515.data.Database  - Database connected
+2017-05-28 22:59:13,759 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-28 22:59:13,759 INFO  a00101515.dao.PlayerDao  - 2017-05-28T22:59:13.759Z
+2017-05-28 22:59:13,759 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-28 22:59:13,837 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-28 22:59:13,837 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-28 22:59:13,837 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-28 22:59:13,946 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-28 22:59:13,946 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-28 22:59:13,962 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-28 22:59:13,978 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-28 22:59:13,993 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-28 22:59:13,993 DEBUG a00101515.Players  - Updated 5 players
+2017-05-28 22:59:14,212 INFO  a00101515.Players  - 2017-05-28T22:59:14.212Z
+2017-05-28 22:59:14,399 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-28 22:59:14,399 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-28 22:59:14,415 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-28 22:59:20,118 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Mark', lastName='Chan', emailAddress='mchan@oneminutemail.com', gamerTag='CastleRock' WHERE id=5
+2017-05-28 22:59:30,898 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Jeanette', lastName='Price', emailAddress='priceizrite@hotmail.com', gamerTag='Quinesia' WHERE id=4
+2017-05-30 00:21:00,105 INFO  a00101515.Players  - 2017-05-30T00:21:00.105Z
+2017-05-30 00:21:00,105 INFO  a00101515.Players  - loadData() open
+2017-05-30 00:21:00,121 DEBUG a00101515.data.Database  - Loading database properties from db.properties
+2017-05-30 00:21:00,542 DEBUG a00101515.data.Database  - Loading org.apache.derby.jdbc.EmbeddedDriver
+2017-05-30 00:21:02,042 DEBUG a00101515.data.Database  - Database connected
+2017-05-30 00:21:02,575 DEBUG a00101515.dao.Dao  - DROP TABLE Players
+2017-05-30 00:21:02,575 INFO  a00101515.dao.PlayerDao  - 2017-05-30T00:21:02.575Z
+2017-05-30 00:21:02,575 DEBUG a00101515.dao.PlayerDao  - Creating database table Players
+2017-05-30 00:21:02,825 DEBUG a00101515.dao.PlayerDao  - Created database table Players
+2017-05-30 00:21:02,856 DEBUG a00101515.player.io.PlayerReader  - ReadingC:\Projects\BCIT\COMP2613\Players\players.txt
+2017-05-30 00:21:02,903 DEBUG a00101515.player.io.PlayerReader  - End PlayerReader
+2017-05-30 00:21:03,028 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(1, 'Fred', 'Fish', 'fredfish@gamer.net', 'Ithroeann', '1977-03-22')
+2017-05-30 00:21:03,059 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(2, 'Laurie', 'Nash', 'laurieeenash@gmail.com', 'Mazzzap', '1982-08-28')
+2017-05-30 00:21:03,082 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(3, 'Conrad', 'Washington', 'fredfish@gamer.net', 'Crayonbreath', '1972-07-12')
+2017-05-30 00:21:03,114 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(4, 'Jeanette', 'Price', 'priceizrite@hotmail.com', 'Quinesia', '2001-10-03')
+2017-05-30 00:21:03,129 DEBUG a00101515.dao.PlayerDao  - INSERT INTO Players VALUES(5, 'Mark', 'Chan', 'mchan@oneminutemail.com', 'CastleRock', '1995-04-01')
+2017-05-30 00:21:03,129 DEBUG a00101515.Players  - Updated 5 players
+2017-05-30 00:21:03,504 INFO  a00101515.Players  - 2017-05-30T00:21:03.504Z
+2017-05-30 00:21:03,786 DEBUG a00101515.dao.PlayerDao  - Open getAllPlayers()
+2017-05-30 00:21:03,786 DEBUG a00101515.dao.PlayerDao  - SELECT * FROM Players 
+2017-05-30 00:21:03,817 DEBUG a00101515.dao.PlayerDao  - Close getAllPlayers()
+2017-05-30 00:21:19,332 DEBUG a00101515.dao.PlayerDao  - UPDATE Players SET firstName='Jeanette', lastName='Price', emailAddress='priceizrite@hotmail.com', gamerTag='Quinesia' WHERE id=4
