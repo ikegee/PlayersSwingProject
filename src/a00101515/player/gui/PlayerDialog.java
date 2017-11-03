@@ -1,5 +1,4 @@
 /**
- * Project: A0001515Lab10
  * File: PersonaDialog.java
  * Date: 2015-03-23
  * Time: `6:58:02 PM
@@ -25,7 +24,7 @@ import net.miginfocom.swing.MigLayout;
 import a00101515.data.Player;
 
 /**
- * @author G.E. Eidsness, A00101515
+ * @author G.E. Eidsness
  */
 
 public class PlayerDialog extends JDialog {
