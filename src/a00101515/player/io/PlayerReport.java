@@ -1,8 +1,8 @@
 /**
- * Project: A00101515Lab10 File: PlayerReport.java
+ * File: PlayerReport.java
  * Package: a00101515.player.io
  * Date: Mar 4, 2017 Time: 12:35:21 AM 
- * Author: G.E. Eidsness, A00101515
+ * Author: G.E. Eidsness
  */
 package a00101515.player.io;
 
