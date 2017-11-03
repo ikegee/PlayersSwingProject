@@ -1,5 +1,4 @@
 /**
-* Project: A00101515Lab10
 * File: PlayerReader.java
 * Date: 2015-03-23
 * Time: `7:22:45 PM
@@ -21,7 +20,7 @@ import a00101515.data.Player;
 import a00101515.util.Validator;
 
 /**
- * @author G.E. Eidsness, A00101515
+ * @author G.E. Eidsness
  *
  */
 
