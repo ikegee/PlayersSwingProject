@@ -1,5 +1,4 @@
 /**
- * Project: A00123456Lab10
  * File: PlayerListItem.java
  * Date: Mar 16, 2015
  * Time: 10:00:39 PM
@@ -10,7 +9,7 @@ package a00101515.player.gui;
 import a00101515.data.Player;
 
 /**
- * @author G.E. Eidsness, A00101515
+ * @author G.E. Eidsness
  *
  */
 public class PlayerListItem {
