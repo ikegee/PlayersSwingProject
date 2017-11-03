@@ -1,8 +1,8 @@
 /**
- * Project: A00101515Lab10 File: PlayerTableModel.java
+ * File: PlayerTableModel.java
  * Package: a00101515.player.gui
  * Date: Mar 6, 2017 Time: 5:50:04 PM 
- * Author: G.E. Eidsness, A00101515
+ * Author: G.E. Eidsness
  */
 package a00101515.player.gui;
 
