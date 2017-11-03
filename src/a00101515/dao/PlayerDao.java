@@ -24,7 +24,7 @@ import a00101515.data.Database;
 import a00101515.data.Player;
 
 /**
- * @author G.E. Eidsness, A00101515
+ * @author G.E. Eidsness
  *
  */
 public class PlayerDao extends Dao {
