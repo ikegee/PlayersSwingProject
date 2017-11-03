@@ -1,8 +1,8 @@
 /**
- * Project: A00101515Lab10 File: PlayerSorters.java
+ * File: PlayerSorters.java
  * Package: a00101515.player
  * Date: Mar 3, 2017 Time: 12:36:18 PM 
- * Author: G.E. Eidsness, A00101515
+ * Author: G.E. Eidsness
  */
 package a00101515.player;
 
