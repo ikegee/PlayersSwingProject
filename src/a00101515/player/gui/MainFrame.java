@@ -1,5 +1,4 @@
 /**
-* Project: A00101515Lab10
 * File: MainFrame.java
 * Date: 2015-03-23
 * Time: `10:40:49 PM
@@ -27,7 +26,7 @@ import a00101515.dao.PlayerDao;
 import a00101515.data.Player;
 
 /**
- * @author G.E. Eidsness, A00101515
+ * @author G.E. Eidsness
  *
  */
 public class MainFrame extends JFrame {
