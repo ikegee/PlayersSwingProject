@@ -1,5 +1,4 @@
 /**
-* Project: A00101515Lab10
 * File: PlayerDao.java
 * Date: 2015-03-23
 * Time: `7:12:12 PM
