@@ -1,5 +1,4 @@
 /**
- * Project: A00123456Lab10
  * File: PlayerListModel.java
  */
 
@@ -16,7 +15,7 @@ import a00101515.data.Player;
 
 
 /**
- * @author G.E. Eidsness, A00101515
+ * @author G.E. Eidsness
  *
  */
 public class PlayerListModel extends AbstractListModel<PlayerListItem> {
