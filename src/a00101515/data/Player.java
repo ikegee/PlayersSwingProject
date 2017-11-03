@@ -1,5 +1,4 @@
 /**
-* Project: A00101515Lab10
 * File: Player.java
 * Date: 2015-03-23
 * Time: `7:15:57 PM
@@ -11,7 +10,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 /**
- * @author G.E. Eidsness, A00101515
+ * @author G.E. Eidsness
  *
  */
 public class Player {
