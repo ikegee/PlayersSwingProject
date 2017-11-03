@@ -1,8 +1,8 @@
 /**
- * Project: A00101515Lab10 File: Validator.java
+ * File: Validator.java
  * Package: a00101515.util
  * Date: Mar 3, 2017 Time: 11:44:23 PM 
- * Author: G.E. Eidsness, A00101515
+ * Author: G.E. Eidsness
  */
 package a00101515.util;
 
