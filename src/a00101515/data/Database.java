@@ -1,5 +1,4 @@
 /**
-* Project: A00101515Lab10
 * File: Database.java
 * Date: 2015-03-23
 * Time: `7:03:37 PM
@@ -19,7 +18,7 @@ import javax.swing.JOptionPane;
 import org.apache.log4j.Logger;
 
 /**
- * @author G.E. Eidsness, A00101515
+ * @author G.E. Eidsness
  *
  */
 public class Database implements Serializable{
