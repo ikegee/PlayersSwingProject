@@ -1,5 +1,4 @@
 /**
-* Project: A00101515Lab10
 * File: Dao.java
 * Date: 2015-03-23
 * Time: `7:02:29 PM
@@ -15,7 +14,7 @@ import org.apache.log4j.Logger;
 import a00101515.data.Database;
 
 /**
- * @author G.E. Eidsness, A00101515
+ * @author G.E. Eidsness
  *
  */
 public abstract class Dao {
