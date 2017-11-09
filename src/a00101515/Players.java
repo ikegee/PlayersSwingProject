@@ -1,5 +1,4 @@
 /**
-* Project: A00101515Lab10
 * File: Players.java
 * Date: 2015-03-23
 * Time: `6:58:02 PM
