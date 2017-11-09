@@ -1,5 +1,4 @@
 /**
- * Project: A00123456Lab3
  * File: ApplicationException.java
  * Date: Sep 29, 2014
  * Time: 10:31:40 PM
